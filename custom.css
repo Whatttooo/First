@@ -1,0 +1,579 @@
+html, body{
+  height: 93.5%;
+  width: 99.5%;
+  background-color: black;
+}
+p{
+  position: absolute;
+}
+
+
+header{
+  margin-top: 10px;
+  width: 100%;
+  height: 70px;
+}
+
+.container{
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+.user-profile{
+  position: absolute;
+    width: 100px;
+  	height: 100px;
+  	border: 5px solid white;
+  	-moz-border-radius: 50px;
+  	-webkit-border-radius: 50px;
+  	border-radius: 50px;
+    margin-left: 1500px;
+
+}
+.user{
+  position: absolute;
+  color: white;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 21px;
+}
+
+#burger-menu{
+  color:white;
+  position: absolute;
+  margin-left: 1650px;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.wrap{
+  position: absolute;
+  height: 100%;
+  width : 100%;
+
+}
+.category-security{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.category-security:hover{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  background-color: rgba(204,0,0,0.3);
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.category-security:hover:after{
+  content: "SECURITY";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 90px;
+  margin-top: 150px;
+}
+.category-heating{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 50px;
+  margin-left: 700px;
+}
+.category-heating:hover{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  background-color: rgba(204,0,0,0.3);
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 50px;
+  margin-left: 700px;
+}
+.category-heating:hover:after{
+  content: "HEATING";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 105px;
+  margin-top: 150px;
+}
+#lock{
+  color:white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 145px;
+  font-size: 70px;
+}
+
+#heating{
+  color:white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 135px;
+  font-size: 70px;
+}
+
+.category-lighting{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 50px;
+  margin-left: 1200px;
+}
+.category-lighting:hover{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  background-color: rgba(204,0,0,0.3);
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 50px;
+  margin-left: 1200px;
+}
+.category-lighting:hover:after{
+  content: "LIGHTING";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 150px;
+
+}
+
+#lighting{
+  color:white;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 145px;
+  font-size: 80px;
+}
+.category-devices{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 380px;
+  margin-left: 430px;
+}
+.category-devices:hover{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  background-color: rgba(204,0,0,0.3);
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 380px;
+  margin-left: 430px;
+}
+.category-devices:hover:after{
+  content: "DEVICES";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+#devices{
+  color:white;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 130px;
+  font-size: 80px;
+}
+
+.category-music{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 380px;
+  margin-left: 930px;
+}
+.category-music:hover{
+  height : 250px;
+  width :350px;
+  border: 10px solid white;
+  background-color: rgba(204,0,0,0.3);
+  border-radius: 75px;
+  position : absolute;
+  margin-top: 380px;
+  margin-left: 930px;
+}
+.category-music:hover:after{
+  content: "MUSIC";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+#music{
+  color:white;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 130px;
+  font-size: 80px;
+}
+
+footer{
+  position:relative;
+  bottom:0;
+  width: 100%;
+  height: 100px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-top: 0px;
+  margin-left:5px;
+}
+.Temp{
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 30px;
+
+
+}
+#num-Temp{
+  color: white;
+  font-weight:bold;
+  position: absolute;
+  margin-left:10px;
+  margin-top: 5px;
+  font-size: 70px;
+  display: inline-block;
+}
+.degC{
+  color: white;
+  font-weight:bold;
+  position: absolute;
+  margin-left:90px;
+  margin-top: 5px;
+  font-size: 70px;
+}
+
+#circle-up{
+  color: white;
+  margin-left: 190px;
+  margin-top: 10px;
+  font-size: 28px;
+}
+#circle-down{
+  color: white;
+  margin-left: 190px;
+  margin-top: 10px;
+  font-size: 28px;
+}
+.user-room{
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-left:250px;
+}
+
+.user-room-name{
+  color: white;
+  font-weight:bold;
+  position: absolute;
+  margin-left:10px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.room-lock{
+  height:35px;
+  width: 60px;
+  border: 3px solid white;
+  border-radius:30px;
+  margin-left: 160px;
+  margin-top: 20px;
+  background-color: #cc0000;
+}
+.slider-room{
+  height: 30px;
+  width:30px;
+  border-radius:50px;
+  background-color: white;
+  margin-left: 24.9px;
+}
+.lock-status-room{
+  position: absolute;
+  color: white;
+  margin-left: 165px;
+  margin-top: -0.1px;
+}
+.front-door{
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-left:500px;
+}
+.front-door-name{
+  color: white;
+  font-weight:bold;
+  position: absolute;
+  margin-left:10px;
+  margin-top: 5px;
+  font-size: 35px;
+}
+.front-door-lock{
+  height:35px;
+  width: 60px;
+  border: 3px solid white;
+  border-radius:30px;
+  margin-left: 160px;
+  margin-top: 20px;
+  background-color: #cc0000;
+}
+.slider-front-door{
+  height: 30px;
+  width:30px;
+  border-radius:50px;
+  background-color: white;
+  margin-left: 24.9px;
+}
+.lock-status-front-door{
+  position: absolute;
+  color: white;
+  margin-left: 165px;
+  margin-top: -0.1px;
+}
+.back-door{
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-left:750px;
+}
+.back-door-name{
+  color: white;
+  font-weight:bold;
+  position: absolute;
+  margin-left:10px;
+  margin-top: 5px;
+  font-size: 35px;
+}
+.back-door-lock{
+  height:35px;
+  width: 60px;
+  border: 3px solid white;
+  border-radius:30px;
+  margin-left: 160px;
+  margin-top: 20px;
+  background-color: #cc0000;
+}
+.slider-back-door{
+  height: 30px;
+  width:30px;
+  border-radius:50px;
+  background-color: white;
+  margin-left: 24.9px;
+}
+.lock-status-back-door{
+  position: absolute;
+  color: white;
+  margin-left: 165px;
+  margin-top: -0.1px;
+}
+.porch-light{
+  position: absolute;
+  height: 100%;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-left:1000px;
+}
+.porch-light-name{
+  color: white;
+  font-weight:bold;
+  position: absolute;
+  margin-left:10px;
+  margin-top: 5px;
+  font-size: 35px;
+}
+.porch-light-on-off{
+  height:35px;
+  width: 60px;
+  border: 3px solid white;
+  border-radius:30px;
+  margin-left: 160px;
+  margin-top: 20px;
+  background-color: #000000;
+}
+.slider-porch-light{
+  height: 30px;
+  width:30px;
+  border-radius:50px;
+  background-color: white;
+  margin-left: 0px;
+}
+.light-status-porch{
+  position: absolute;
+  color: white;
+  margin-left: 180px;
+  margin-top: -0.1px;
+}
+
+.add-fav{
+  position: absolute;
+  height: 100%;
+  width: 100px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin-left: 1620px;
+}
+#add-new-fav{
+  color: white;
+  font-size: 70px;
+  margin-left: 16px;
+  margin-top: 5px;
+}
+
+.category-view{
+  height: 500px;
+  width: 800px;
+  margin-left: 450px;
+  margin-top: -365px;
+  border: 5px solid white;
+  border-radius: 500px;
+  position: absolute;
+}
+#devices2{
+  color:white;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 350px;
+  font-size: 80px;
+}
+.device-tab{
+  color: white;
+  font-size: 40px;
+  margin-top: 430px;
+  margin-left: 310px;
+}
+.view{
+  height: 500px;
+  width: 1200px;
+   margin-left: 250px;
+   margin-top: 200px;
+   border: 5px solid white;
+   border-radius: 50px;
+   background-color:black;
+   z-index: 1;
+}
+.television-tab{
+  height: 70px;
+  width: 150px;
+  border: 5px solid white;
+  background-color: rgba(204,0,0,0.7);
+  border-radius: 50px;
+  margin-top:-70px;
+  margin-left: 20px;
+}
+.television-tab-name{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.coffee-tab{
+  height: 70px;
+  width: 150px;
+  border: 5px solid white;
+  border-radius: 50px;
+  margin-top:-70px;
+  margin-left: 170px;
+}
+.coffee-tab-name{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.oven-tab{
+  height: 70px;
+  width: 150px;
+  border: 5px solid white;
+  border-radius: 50px;
+  margin-top:-70px;
+  margin-left: 320px;
+}
+.oven-tab-name{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.xbox-tab{
+  height: 70px;
+  width: 150px;
+  border: 5px solid white;
+  border-radius: 50px;
+  margin-top:-70px;
+  margin-left: 470px;
+}
+.xbox-tab-name{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.playstation-tab{
+  height: 70px;
+  width: 150px;
+  border: 5px solid white;
+  border-radius: 50px;
+  margin-top:-70px;
+  margin-left: 620px;
+}
+.playstation-tab-name{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.television-on{
+  height:50px;
+  width: 120px;
+  border: 3px solid white;
+  border-radius:30px;
+  margin-left: 160px;
+  margin-top: 70px;
+  background-color: #cc0000;
+}
+.television-slider{
+  height: 45px;
+  width:50px;
+  border-radius:50px;
+  background-color: white;
+  margin-left: 65px;
+}

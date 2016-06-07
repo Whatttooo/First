@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XYZ</title>
+  <script src = "main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <link rel="stylesheet" type="text/css" href="custom.css" >
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+<body>
+  <div class = "container">
+    <header>
+      <a href ="index.html">
+      <img src = "Resources/Images/logo.png" alt = "Logo" style = "border-color:red; margin-left:26px; position: absolute;"/>
+    </a>
+      <div class = "user-profile">
+          <img src = "Resources/Images/Female-user.png" alt="female-user" height = "50" width = "50" style="background-color:black; position:absolute; margin-top: 10px; margin-left: 20px;"/>
+          <h5 class = "user">
+            Sarah
+          </h5>
+
+      </div>
+      <p style="position: absolute;">
+        <span class = "fa fa-bars" id = "burger-menu"></span>
+      </p>
+    </header>
+
+    <section>
+
+
+    <div class = "wrap">
+      <div class = "category-security">
+        <p >
+          <span class = "fa fa-lock" id = "lock"></span>
+        </p>
+      </div>
+      <div class = "category-heating">
+        <p >
+          <span class = "glyphicon glyphicon-fire" id= "heating"></span>
+        </p>
+      </div>
+      <div class = "category-lighting">
+        <p>
+          <span class = "fa fa-lightbulb-o" id = "lighting"></span>
+        </p>
+      </div>
+      <a href = "Devices.html">
+      <div class = "category-devices">
+        <p>
+          <span class = "fa fa-television" id = "devices"></span>
+        </p>
+      </div>
+    </a>
+      <div class ="category-music">
+        <p>
+          <span class="glyphicon glyphicon-music" id = "music"></span>
+        </p>
+      </div>
+    </div>
+    </section>
+
+  </div>
+  <footer>
+
+    <div class="Temp">
+      <h3 id ="num-Temp"></h3><h3 class = "degC">&deg;C</h3>
+      <script>
+        if(!localStorage){
+          document.getElementById('num-Temp').innerHTML = 15;
+        }
+        else{
+          document.getElementById('num-Temp').innerHTML = localStorage.getItem('num-Temp');
+        }
+      </script>
+
+      <div class = "fa fa-chevron-circle-up" id = "circle-up" type = "button" onclick="homeTempUp()">
+      </div>
+        <div class ="fa fa-chevron-circle-down" id ="circle-down" type = "button" onclick = "homeTempDown()">
+        </div>
+    </div>
+
+    <div class = "user-room">
+      <h3 class = "user-room-name">SARAH'S <br />ROOM</h3>
+      <div class ="room-lock">
+        <div class="slider-room" type = "button"  onclick="sliderMoveFooter()">
+        </div>
+      </div>
+      <h5 class= "lock-status-room">LOCKED</h5>
+    </div>
+
+
+    <div class = "front-door">
+      <h3 class =front-door-name>FRONT<br />DOOR</h3>
+      <div class = "front-door-lock">
+        <div class= "slider-front-door" type = "button" onclick="sliderMoveFooter2()">
+        </div>
+      </div>
+      <h5 class = "lock-status-front-door">LOCKED</h5>
+    </div>
+
+      <div class = "back-door">
+        <h3 class = "back-door-name">BACK<br />DOOR</h3>
+        <div class = "back-door-lock">
+          <div class = "slider-back-door" type = "button" onclick= "sliderMoveFooter3()">
+          </div>
+        </div>
+        <h5 class = "lock-status-back-door">LOCKED</h5>
+      </div>
+
+      <div class = "porch-light">
+        <h3 class="porch-light-name">PORCH<br />LIGHT</h3>
+        <div class ="porch-light-on-off">
+          <div class = "slider-porch-light" type = "button" onclick = "sliderMoveFooter4()">
+
+          </div>
+        </div>
+        <h5 class = "light-status-porch">OFF</h5>
+      </div>
+
+      <div class = "add-fav">
+        <p>
+          <span class = "fa fa-plus-circle" id = "add-new-fav"></span>
+        </p>
+      </div>
+  </footer>
+
+
+</body>
+</html>
