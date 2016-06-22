@@ -71,7 +71,7 @@
     <div class="Temp">
       <h3 id ="num-Temp"></h3><h3 class = "degC">&deg;C</h3>
       <script>
-        if(!localStorage){
+        if(localStorage.getItem('num-Temp')== NaN){
           document.getElementById('num-Temp').innerHTML = 15;
         }
         else{
